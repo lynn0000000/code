@@ -1,0 +1,45 @@
+
+#---------------list---------------
+
+#創立串列
+list()
+lst=[]
+
+#創建0~5的串列(裡面加range)
+#range裡的數不能是浮點數
+list( range(0,6))
+
+# list裡的字串會被拆成字元組成的串列
+lst = list('python');lst
+
+#用join()函數將字元串列組成字串
+''.join(lst)
+
+#--------------tuple---------------
+
+#序對建立
+tuple()
+print((5,3,'jerry'))
+print(type((5,3,'jerry')))
+
+#串列裡面包序對
+[ ( 7,3,9 ) ]
+
+#利用序對建立串列
+list(( 7,3,9))
+
+# 將range物件轉序對
+tuple( range(5,10) )
+
+#將字串轉成字元組成的序對
+tuple('python')
+
+#將串列轉承序對
+#裡面的字串沒有被拆成字元
+tuple( ['python','programing'] )
+
+#空串列
+print( ( tuple() ) )
+
+#序對的寫法(要加逗號)
+print( (3,) )

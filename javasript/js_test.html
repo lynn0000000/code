@@ -1,0 +1,24 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的Java</title>
+
+    <!--套用方式1 外部-->
+    <script src="script.js"></script> <!--連接外部資料-->
+</head>
+<body>
+    <button id="b1">按鈕</button>
+    <!--套用方式2 內部-->
+    <script>
+        b1=document.getElementById("b1");  // 結尾要加分號 、 要包在script裡面
+        b1.onclick=function(){             //onclick事件在用戶單擊某個元素時發生
+            this.style.color='red';        //此程式碼: 按鈕按了之後會變成紅色的
+        } 
+    </script>
+    <!--套用方式3 行內-->
+    <script></script>
+</body>
+</html>

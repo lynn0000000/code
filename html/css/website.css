@@ -1,0 +1,250 @@
+html{
+    margin: 0;
+}
+body{
+    width: 100%;
+    background-color: rgba(250, 235, 215, 0.808);
+}
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+    }
+.border{
+    border: 2px solid red;
+}
+h1{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: a;
+}
+@media(max-width:758px){
+    h1{
+        margin: 5%;
+    }
+}
+h2{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    font-size: 20px;
+    color: rgb(94, 93, 93);
+}
+.A-H,.H-C,.C-F{
+    width: 100%;
+    height: 100px;
+}
+/*--------header----------*/
+
+.title{
+    width: 100%;
+    height: 100px;
+    background: rgb(207, 177, 133);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+
+}
+.title-content{
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+
+}
+.menu{
+    color: white;
+    padding-right: 5%;
+}
+.title-link:hover, .title-link:visited, .title-link:link, .title-link:active {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.title-icon-group{
+    display: flex;
+    flex-direction: row;
+}
+.title-icon{
+    padding: 10px;    
+}
+
+.ig,.fb,.github{
+    color: white;
+}
+
+
+/*--------body----------*/
+
+/*----ABOUT----*/
+
+.for-fixed{     /*在最上面加一塊高150px的區塊，使最上面fix的title不會跑掉*/
+    padding-top: 100px;
+}
+.main{
+    width:100%;
+}
+
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(250, 246, 237);
+}
+@media(max-width:1200px){
+    .main-content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.about-me{
+    width: 100%;
+    padding: 5%;
+}
+@media(max-width:1200px){
+    .about-me{
+        padding: 6%;
+    }
+}
+.about-me-content{
+    font-size: large;
+}
+
+.photo-web{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+
+}
+
+/*----Homework----*/
+.homework-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card-1,.card-2{
+    display: flex;
+    flex-direction: row;
+}
+
+@media(max-width:2500px){
+    .card{
+        margin: 0.2%;
+        width: 15rem;
+        height: 20rem;
+    }
+}
+@media(max-width:1200px){
+    .homework-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-1,.card-2{
+        display: flex;
+        flex-direction: row;
+    }
+    .card{
+        margin: 0.2%;
+        width: 15rem;
+        height: 20rem;
+    }
+}
+@media(max-width:763px){
+    .homework-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-1,.card-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-set{
+        width: 180px;
+        font-size: small;
+    }
+    .card{
+        margin: 5%;
+        width: 30rem;
+        height: 30rem;
+    }
+}
+.card{
+    border: 0;
+}
+
+.homework-link,.contact-link:hover, .homework-link:visited, .homework-link:link, .homework-link:active,.contact-link{
+    color: #000;
+}
+.btn-set{
+    display: flex;
+    justify-content: center;
+    background: rgb(207, 177, 133);
+    border: 0px;
+}
+
+/*----CONTACT----*/
+
+.contact{
+    width: 100%;
+    height: fit-content;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:720px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.c1,.c2{
+    display: flex;
+    flex-direction: row;
+}
+@media(max-width:720px){
+    .c1,.c2{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.col{
+    width: 200px;
+    text-align: center;
+}
+
+.contact-bg{
+    padding: 10%;
+    height: fit-content;
+    background-color: rgb(250, 246, 237) ;;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 30px;
+}
+
+/*----FOOTER----*/
+footer{
+    background: rgb(207, 177, 133);
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    flex-direction: row;  
+    
+}
+.footer-content{
+    width: 200px;
+}

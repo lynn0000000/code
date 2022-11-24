@@ -1,0 +1,20 @@
+#set
+print(" ",end="")
+for i in range(1,10):
+    print(f'{i:3d}',end='')
+
+for x in range(1,10):
+    print('\n'+str(x),end='')
+    
+    for y in range(1,10):
+        #上半三角形(空白)
+        if 5-x < y < 5+x  and x<=5:
+            if x<5:
+                print("   ",end='') # eg: x=1  4<y<6 x=2 3<y<7
+            elif x==5:
+                print("   ",end="")
+        #下半三角形(空白)
+        elif (x-5) < y < 5+(10-x) and x>5:
+              print("   ",end='')
+        else:
+            print(f'{x*y:3d}',end="")
