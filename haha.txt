@@ -1,0 +1,35 @@
+  
+  git 初始化	
+	
+	git init
+	
+	
+  git push檔案
+
+	git add .
+
+	git status
+
+
+	git commit -m "messages"
+
+	git log 
+
+	
+	git remote add origin https://github.com/cycChuyin/Vue_Todolist.git(github 網址)
+
+	git push -u origin main
+
+	(如果出現 Everything is update 把-u改成-f (無視規則 將原先的紀錄覆蓋掉))
+
+
+  git dowlond file (in vs-code)
+
+	git clone
+
+	
+
+
+
+
+
