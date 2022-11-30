@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>九九乘法表</title>
+</head>
+<style>
+    th{
+        font-size: 14px;
+        padding: 5px;
+        text-align: center;
+        color: white;
+        background-color: black;
+    }
+    table{
+        width: 300px;
+    }
+    td{
+        padding: 5px;
+        text-align: left;
+        padding-left: 25px;
+    }
+</style>
+<body>
+    <center>
+        <a href="/index.html">回首頁</a>
+    <script>
+        document.write("<table border = 1>")
+            document.write("<th colspan=3 >")
+            document.write("九九乘法表")
+            document.write("</th>") 
+
+            document.write("<tr>")
+                for(x=1;x<=3;x++){
+                    document.write("<td>")
+                    for(y=1;y<=9;y++){
+                        document.write(x + "*" + y + "=" + x*y + "<br>")
+                    }
+                }
+                
+                document.write("</td>")
+            document.write("</tr>")
+            document.write("<tr>")
+                for(x=4;x<=6;x++){
+                    document.write("<td>")
+                    for(y=1;y<=9;y++){
+                        document.write(x + "*" + y + "=" + x*y + "<br>")
+                    }
+                }
+                
+                document.write("</td>")
+            document.write("</tr>")
+            document.write("<tr>")
+                for(x=7;x<=9;x++){
+                    document.write("<td>")
+                    for(y=1;y<=9;y++){
+                        document.write(x + "*" + y + "=" + x*y + "<br>")
+                    }
+                }
+                
+                document.write("</td>")
+            document.write("</tr>")
+            
+    </script>
+    </center>
+</body>
+</html>
