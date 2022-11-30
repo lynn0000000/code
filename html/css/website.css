@@ -123,6 +123,10 @@ h3{
 }
 
 /*----Homework----*/
+.homework-list{
+    color: gray;
+    font-size: 20px;
+}
 .homework-card{
     display: flex;
     flex-direction: row;
