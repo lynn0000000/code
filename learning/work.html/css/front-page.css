@@ -1,0 +1,22 @@
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+.title-site{
+    margin: 0;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.title-img{
+    margin-left:20px ;
+}
+.title-img-1,.title-img-2{
+    width: 286px;
+    height: 101px;
+}
+
