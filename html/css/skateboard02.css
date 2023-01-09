@@ -97,11 +97,13 @@ body{
 }
 .graphic .item{
     width: 300px;
-    /* border: 1px solid gray; */
 }
 .graphic img{
     width: 50%;
 }
+/* .graphic p{
+    border: 1px solid skyblue;
+} */
 .paragrapg img{
     width: 200px;
 }
