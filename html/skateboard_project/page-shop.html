@@ -145,13 +145,16 @@ body{
         margin: 10px;
         display: flex;
         flex-direction: row;
-        /* border: solid 1px rgb(179, 179, 179); */
         box-sizing: border-box;
     }
     .col p{
         font-size: 18px;
         
     }
+    
+    .col_class{
+    border: solid 1px orange;
+}
 </style>
 <body>
 
@@ -263,6 +266,21 @@ body{
         </div>
         <span>&emsp;© 2023 by XIAO-LING LIAO</span>
     </div> 
+
+
+    <script src="../js/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".col").mouseenter(function(){
+                $(this).addClass("col_class")
+                // $(this).hide()
+            })
+            $(".col").mouseleave(function(){
+                $(this).removeClass("col_class")
+            })
+        })
+    </script>
 </body>
 
 </html>

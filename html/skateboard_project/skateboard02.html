@@ -208,6 +208,7 @@
             $(".menu-btn").click(function () {
                 $(".menu-show").toggle("10ms");
             })
+
             $(".graphic .item img").mouseenter(function(){
                 $(this).animate( {height:"460px"},"fast")
                 $(this).animate( {width:"400px"},"fast")
@@ -216,12 +217,14 @@
                 $(this).animate( {height:"230px"} ,"fast")
                 $(this).animate( {width:"200px"},"fast")
             })
+
             $("p").mouseenter(function(){
                 $(this).addClass("p_class")
             })
             $("p").mouseleave(function(){
                 $(this).removeClass("p_class")
             })
+            
         })
 
     </script>
