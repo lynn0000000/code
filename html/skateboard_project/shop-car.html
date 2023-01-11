@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>購物車</title>
+</head>
+
+<style>
+    th,#list{
+        width: 768px;
+        padding: 3px;
+        background: black;
+        color: white;
+    }
+    tr{
+        display: flex;
+    }
+    tr td{
+        margin: 3px;
+    }
+    #list td{
+        margin:0 7% ;
+    }
+
+</style>
+
+<body>
+    <center>
+        <table>
+            <th colspan="3">購物車範例</th>
+            <tr>
+                <td>
+                    <input type="text" placeholder="商品名稱">
+                </td>
+                <td>
+                    <input type="number" placeholder="單價">
+                </td>
+                <td>
+                    <button>增</button>
+                </td>
+            </tr>
+            <tr colspan="5" id="list">
+                <td>功能</td>
+                <td>商品名稱</td>
+                <td>數量</td>
+                <td>單價</td>
+                <td>小計</td>
+            </tr>
+        </table>
+    </center>
+
+
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+        })
+    </script>
+</body>
+</html>

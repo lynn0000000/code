@@ -5,6 +5,11 @@ body{
 .p_class{
     color:orange
 }
+.img_class{
+    width: 400px;
+    height: 460px;
+    border-bottom: 1px solid skyblue;
+}
 /* header */
 .top{
     width: 100%;

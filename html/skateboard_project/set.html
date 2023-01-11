@@ -124,26 +124,34 @@ body{
 }
 
 
-.ul a{
-    text-decoration: none;
-    color: white;
-}
-.container{
-    margin: 30px;
-}
-.videos{
-    display: flex;
-    justify-content: center;
-    border: 1px solid skyblue;
-    padding: 10px;
-}
-
-.videos video{
-    width: 200px;
-    margin: 40px;
-}
 
 
+    .wrap{
+        width: 100%;
+        display: flex;
+    }
+    @media (max-width:768px){
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+    .col img{
+        margin: 0 20px 0 20px;
+        width: 100px
+    }
+    .col{
+        padding: 10px;
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        /* border: solid 1px rgb(179, 179, 179); */
+        box-sizing: border-box;
+    }
+    .col p{
+        font-size: 18px;
+        
+    }
 </style>
 <body>
 
@@ -177,44 +185,11 @@ body{
             <a href="../skateboard_project/skateboard02.html">Home</a>
         </div>
     </div>
-
     <div class="space"></div>
 
-    <ul>
-        <li>
-            <a href="#moves">招式表</a>
-        </li>
-        <li>
-            <a href="#videos">影片</a>
-        </li>
-    </ul>
-    
-    <div class="space" style="height: 482px;"></div>
 
 
-    <div class="container">
-        <div class="space" id="moves"></div>
-        <div class="moves"><img src="../photo/other.jpg" alt=""></div>
-        
-        <div class="space" id="videos"></div>
-        <h1>雷哥哥贊助影片</h1>
-        <div class="videos">
-            <video autoplay muted loop class="video-1">
-                <source src="../mp4/relex-1.mp4" type="video/mp4">
-            </video>
-            <video autoplay muted loop class="video-2">
-                <source src="../mp4/relex-2.mp4" type="video/mp4">
-            </video>
-            <video autoplay muted loop class="video-3">
-                <source src="../mp4/relex-3.mp4" type="video/mp4">
-            </video>
-            <video autoplay muted loop class="video-4">
-                <source src="../mp4/relex-4.mp4" type="video/mp4">
-            </video>
-        </div>
-    </div>
 
-    <div class="space"></div>
 
     <div class="footer">
         <span>content :</span>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>滑板店</title>
     <link rel="stylesheet" href="../css/skateboard02.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
     <!-- bootstrap -->
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -199,20 +200,20 @@
 
 
 
-
-
+    
     <script src="../js/jquery.min.js"></script>
+    
     <script>
         $(document).ready(function () {
             $(".menu-btn").click(function () {
                 $(".menu-show").toggle("10ms");
             })
             $(".graphic .item img").mouseenter(function(){
-                $(this).animate( {height:"276px"},"fast")
-                $(this).animate( {width:"240px"},"fast")
+                $(this).animate( {height:"460px"},"fast")
+                $(this).animate( {width:"400px"},"fast")
             })
             $(".graphic .item img").mouseleave(function(){
-                $(this).animate( {height:"230px"} )
+                $(this).animate( {height:"230px"} ,"fast")
                 $(this).animate( {width:"200px"},"fast")
             })
             $("p").mouseenter(function(){
