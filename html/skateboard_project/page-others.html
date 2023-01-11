@@ -147,6 +147,12 @@ body{
 .container{
     margin: 20px;
 }
+.menu-btn svg{
+    position:absolute;
+    right: 0;
+    margin-right :20px; 
+    color: white;
+}
 
 
 </style>
@@ -254,6 +260,24 @@ body{
         </div>
         <span>&emsp;© 2023 by XIAO-LING LIAO</span>
     </div> 
+    <script src="../js/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".menu-btn").click(function () {
+                $(".menu-show").toggle("10ms");
+            })
+
+            $(".col").mouseenter(function(){
+                $(this).addClass("col_class")
+                // $(this).hide()
+            })
+            $(".col").mouseleave(function(){
+                $(this).removeClass("col_class")
+            })
+        })
+    </script>
 </body>
+
 
 </html>
