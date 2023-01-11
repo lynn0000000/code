@@ -39,9 +39,9 @@ body{
     margin: 0 10px 0 20px;
 }
 .logo img{
-    width: 40px;
+    width: 100px;
     height: auto;
-    margin: 0 10px 0 20px;
+    margin: 0px 10px 0px 10px;
 }
 .menu{
     flex-grow: 1;
@@ -155,6 +155,13 @@ body{
     .col_class{
     border: solid 1px orange;
 }
+
+.video-bg{
+    text-align: center;
+}
+.video-bg video{
+    /* width: 70%; */
+}
 </style>
 <body>
 
@@ -164,11 +171,11 @@ body{
     <!-- <div class="tip"><a href="#">活動</a></div> -->
     <div class="header">
         <div class="logo">
-            <img src="https://fakeimg.pl/350x200/ff0000/000">
+            <a href="../skateboard_project/skateboard02.html"><img src="../photo/title02-removebg-preview.png" ></a>
         </div>
         <h2>skateboard</h2>
         <div class="menu">
-            <a href="#">about</a>
+            <a href="../skateboard_project/page_about.html">about</a>
             <a href="../skateboard_project/page-shop.html">Shop</a>
             <a href="../skateboard_project/skateboard02.html#Calutre">Calutre</a>
             <a href="../skateboard_project/skateboard02.html">Home</a>
@@ -182,15 +189,19 @@ body{
         </div>
     </div>
     <div class="menu-show" style="display: none;">
-        <a href="#">about</a>
-        <a href="#">Shop</a>
-        <a href="#">Calutre</a>
+        <a href="../skateboard_project/page_about.html">about</a>
+        <a href="../skateboard_project/page-shop.html">Shop</a>
+        <a href="../skateboard_project/skateboard02.html">Calutre</a>
         <a href="../skateboard_project/skateboard02.html">Home</a>
     </div>
 </div>
-<div class="space"></div>
+<div class="space" style="height: 80px;"></div>
 
-
+    <div class="video-bg">
+        <video autoplay muted loop class="video-1">
+            <source src="../mp4/skateboard.mp4" type="video/mp4">
+        </video>
+    </div>
 
     <div class="wrap">
         <div class="col"><img src="https://cdn.shopify.com/s/files/1/0011/9416/4291/products/YUTO_1100x.jpg?v=1665340352" alt="">
@@ -239,6 +250,9 @@ body{
             </div>
         </div>
     </div>
+
+    <div class="space"></div>
+
     <div class="footer">
         <span>content :</span>
         <div class="icon-group">
